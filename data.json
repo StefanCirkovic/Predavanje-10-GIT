@@ -7,25 +7,25 @@
     },
     {
         "name": "Nikola Pavlovic",
-        "age": 25,
-        "height": 165,
+        "age": 24,
+        "height": 190,
         "gender": "male"
     },
     {
         "name": "Marija Jovic",
-        "age": 32,
-        "height": 170,
+        "age": 22,
+        "height": 160,
         "gender": "female"
     },
     {
         "name": "Petar Petrovic",
-        "age": 35,
+        "age": 31,
         "height": 190,
         "gender": "male"
     },
     {
         "name": "Petar Petrovic",
-        "age": 35,
+        "age": 31,
         "height": 190,
         "gender": "male"
     }

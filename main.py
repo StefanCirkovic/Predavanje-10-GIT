@@ -1,17 +1,17 @@
 
-import json
+from methods import load_file, save_file
 
-with open("data/user.json", 'r') as file:
-    data = json.load(file)
-    print(data[0]["name"])
-    data.append({
-        "name": "Petar Petrovic",
-        "age": 31,
-        "height": 190,
-        "gender": "male"
-    })
+# Učitaj podatke iz fajla
+data = load_file("data/user.json")
 
+# Prikaz podataka
 print(data)
 
-with open("data/user.json", 'w') as file:
-    json.dump(data, file, indent=4)
+# Dodaj nove podatke
+data.append({
+    "name": "Test Test"
+})
+
+# Sačuvaj izmenjene podatke nazad u fajl
+save_file("data/user.json", data)
+
